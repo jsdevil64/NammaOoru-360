@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #F8FAFC;
+    color: #1E293B;
+    padding: 15px;
+}
+
+.hub-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.hub-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hub-header h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0F172A;
+}
+
+.hub-dot { color: #EA580C; }
+
+.hub-header p {
+    font-size: 13px;
+    color: #64748B;
+    margin-top: 5px;
+}
+
+.hub-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* முக்கியமான மாற்றம்: இப்போ இது லிங்க் கார்டு */
+.hub-card {
+    width: 100%;
+    background: white;
+    border: 1px solid #E2E8F0;
+    border-radius: 20px;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none; /* லிங்க் கோடு மறைய */
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.01);
+}
+
+.hub-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+}
+
+.hub-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.hub-text {
+    flex-grow: 1;
+}
+
+.hub-text h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #0F172A;
+}
+
+.hub-text p {
+    font-size: 12px;
+    color: #64748B;
+    margin-top: 2px;
+}
+
+.arrow-link {
+    color: #94A3B8;
+    font-size: 14px;
+}
+
+/* கலர் தீம்கள் */
+.card-workers .hub-icon { background: #FFF7ED; color: #EA580C; }
+.card-ooru .hub-icon { background: #F0F9FF; color: #0284C7; }
+.card-pakkathula .hub-icon { background: #EEF2FF; color: #2563EB; }
+.card-local .hub-icon { background: #FFF1F2; color: #F43F5E; }
+.card-rentals .hub-icon { background: #FEF2F2; color: #DC2626; }
+
+
