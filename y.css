@@ -6,8 +6,9 @@
 }
 
 body {
-    background-color: #F8FAFC;
-    color: #1E293B;
+    /* Image-la irukkura deep navy blue background */
+    background-color: #0E1B31;
+    color: #FFFFFF;
     padding: 15px;
 }
 
@@ -25,14 +26,15 @@ body {
 .hub-header h1 {
     font-size: 28px;
     font-weight: 700;
-    color: #0F172A;
+    color: #FFFFFF; /* White-ku mathiyachu */
 }
 
-.hub-dot { color: #EA580C; }
+/* Namma Local-la varra antha yellow dot */
+.hub-dot { color: #C2941D; }
 
 .hub-header p {
     font-size: 13px;
-    color: #64748B;
+    color: #A0AAB5; /* Enna seiyalam-nu solra subtext, light grey-ish blue */
     margin-top: 5px;
 }
 
@@ -42,24 +44,25 @@ body {
     gap: 15px;
 }
 
-/* முக்கியமான மாற்றம்: இப்போ இது லிங்க் கார்டு */
+/* Card design: Dark background-ku set aahra mathiri clean look */
 .hub-card {
     width: 100%;
-    background: white;
-    border: 1px solid #E2E8F0;
+    background: #172641; /* Slightly lighter navy blue for card contrast */
+    border: 1px solid rgba(255, 255, 255, 0.08); /* Soft subtle border */
     border-radius: 20px;
     padding: 18px;
     display: flex;
     align-items: center;
     gap: 15px;
-    text-decoration: none; /* லிங்க் கோடு மறைய */
+    text-decoration: none; 
     transition: all 0.2s ease;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.01);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
 .hub-card:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+    border-color: rgba(194, 148, 29, 0.4); /* Hover panna gold border lighting varum */
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
 }
 
 .hub-icon {
@@ -79,25 +82,26 @@ body {
 .hub-text h3 {
     font-size: 16px;
     font-weight: 600;
-    color: #0F172A;
+    color: #FFFFFF; /* Text visibility-kaga white */
 }
 
 .hub-text p {
     font-size: 12px;
-    color: #64748B;
+    color: #A0AAB5; /* Description text visibility */
     margin-top: 2px;
 }
 
 .arrow-link {
-    color: #94A3B8;
+    color: #C2941D; /* Right arrow gold color-ku mathiyachu */
     font-size: 14px;
 }
 
-/* கலர் தீம்கள் */
-.card-workers .hub-icon { background: #FFF7ED; color: #EA580C; }
-.card-ooru .hub-icon { background: #F0F9FF; color: #0284C7; }
-.card-pakkathula .hub-icon { background: #EEF2FF; color: #2563EB; }
-.card-local .hub-icon { background: #FFF1F2; color: #F43F5E; }
-.card-rentals .hub-icon { background: #FEF2F2; color: #DC2626; }
+/* 🎨 Gold & Dark Blue Dynamic Theme for Cards 
+   Intha unique cards-oda icon boxes-ku soft gold shades and white matching senjiruken */
+.card-workers .hub-icon { background: rgba(194, 148, 29, 0.15); color: #E5B837; }
+.card-ooru .hub-icon { background: rgba(194, 148, 29, 0.2); color: #FFFFFF; border: 1px solid #C2941D; }
+.card-pakkathula .hub-icon { background: #C2941D; color: #0E1B31; } /* Premium Solid Gold style */
+.card-local .hub-icon { background: rgba(255, 255, 255, 0.1); color: #E5B837; }
+.card-rentals .hub-icon { background: rgba(194, 148, 29, 0.15); color: #C2941D; }
 
 
