@@ -96,6 +96,23 @@ body {
     font-size: 14px;
 }
 
+/* Arrow icon-களை தங்க நிறமாக மாற்ற */
+.arrow-link {
+    color: #FFD700 !important; /* பிரகாசமான தங்க நிறம் (Gold) */
+}
+
+/* NammaOoru 360 பக்கத்தில் உள்ள புள்ளியை தங்க நிறமாக மாற்ற */
+.hub-dot {
+    color: #FFD700 !important;
+}
+
+/* ஒருவேளை கார்டுக்குள் இருக்கும் அனைத்து மெயின் ஐகான்களும் (Font Awesome icons) 
+   தங்க நிறத்தில் மாற வேண்டும் என்றால், கீழே உள்ளதை பயன்படுத்தவும் (விருப்பப்பட்டால் மட்டும்): */
+.hub-icon i {
+    color: #FFD700;
+}
+
+
 /* 🎨 Gold & Dark Blue Dynamic Theme for Cards 
    Intha unique cards-oda icon boxes-ku soft gold shades and white matching senjiruken */
 .card-workers .hub-icon { background: rgba(194, 148, 29, 0.15); color: #E5B837; }
