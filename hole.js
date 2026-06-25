@@ -1,3 +1,4 @@
+
 const searchInput = document.getElementById('hubSearch');
 const voiceBtn = document.getElementById('voiceSearchBtn');
 
@@ -55,4 +56,3 @@ if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
 } else {
     voiceBtn.style.display = 'none';
 }
-
